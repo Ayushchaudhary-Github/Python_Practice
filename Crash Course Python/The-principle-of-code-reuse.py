@@ -1,3 +1,5 @@
+# Question:
+
 """
 Ready to try it yourself? See if you can reduce the code duplication in this script.
 
@@ -6,6 +8,7 @@ that receives the name of the month and the number of days in that month as para
 the rest of the code so that the result is the same. Confirm your results by making a function 
 call with the correct parameters for both months listed.
 """
+# code:
 """
 # REPLACE THIS STARTER CODE WITH YOUR FUNCTION
 june_days = 30
@@ -14,7 +17,7 @@ july_days = 31
 print("July has " + str(july_days) + " days.")
 """
 
-#Solution
+# Answer:
 
 def month_days(month,days): 
      print(month+" has "+str(days)+" days.") 
