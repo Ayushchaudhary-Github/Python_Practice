@@ -51,6 +51,7 @@ print("The distance in kilometers is " + str(my_trip_km))
 #    and fill in the blank to print the result
 print("The round-trip in kilometers is " + str((my_trip_km)*2))
 
+
 # Question-2:
 
 """
@@ -74,6 +75,22 @@ ___, ___ = order_numbers(100, 99)
 print(smaller, bigger)
 """
 # Answer-2:
+
+# This function compares two numbers and returns them
+# in increasing order.
+
+
+def order_numbers(number1, number2):
+    if number2 > number1:
+        return number1, number2
+    else:
+        return number2, number1
+
+
+# 1) Fill in the blanks so the print statement displays the result
+#    of the function call
+smaller, bigger = order_numbers(100, 99)
+print(smaller, bigger)
 
 
 # Question-3:
@@ -102,6 +119,17 @@ print(lucky_number("Cameron"))
 """
 
 # Answer:
+
+
+def lucky_number(name):
+    number = int(len(name) * 9)
+    nam = "Hello " + name + ". Your lucky number is " + str(number)
+    print(str(nam))
+    return "OK"
+
+
+print(lucky_number("Kay"))
+print(lucky_number("Cameron"))
 
 
 # Question-5:
