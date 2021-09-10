@@ -123,10 +123,8 @@ print(lucky_number("Cameron"))
 
 def lucky_number(name):
     number = int(len(name) * 9)
-    nam = "Hello " + name + ". Your lucky number is " + str(number)
-    print(str(nam))
-    return "OK"
-
+    nam = "Hello " + name + ". Your lucky number is " + str(number)    
+    return nam
 
 print(lucky_number("Kay"))
 print(lucky_number("Cameron"))
