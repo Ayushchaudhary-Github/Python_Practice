@@ -20,5 +20,4 @@ print("cat" + "Cat")
 #  print("cat" == "Cat")
 
 # false
-
 # "cat" is larger than "Cat" 
