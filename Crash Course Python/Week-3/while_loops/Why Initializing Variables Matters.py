@@ -1,3 +1,4 @@
+#ok game is good to go
 """
 def count_down(start_number):
   while (current > 0):
