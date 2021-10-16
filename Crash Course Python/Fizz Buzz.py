@@ -7,7 +7,6 @@ import sys
 n = 15
 i = n
 
-
 def fizzBuzz(n):
     # Write your code here
     for i in range(1, n):
